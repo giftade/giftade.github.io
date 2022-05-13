@@ -1,0 +1,77 @@
+body{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+   
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+.number{
+    width: 1000px;
+    height: 325px;
+    background:linear-gradient(1deg, blue, rgb(21, 21, 70));
+    margin: auto;
+}
+
+.convert{
+    width:1000px;
+    height:325px;
+    background-color: #1F2937;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+   
+
+}
+input {
+    margin-left: 30%;
+  
+   width: 300px;
+
+   height: 50px;
+   background: transparent;
+   border: none;
+   outline: none; 
+   color: white;
+   text-align: center;
+   padding: 40px;
+   padding-top: 50px;
+   font-size: 100px;
+   font-weight: bolder;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+::placeholder{
+    color: white;
+    font-size: 100px;
+   
+}
+ .convert p:nth-child(even) {
+     color: rgb(136, 136, 136);
+     padding-bottom: 10px;
+     font-weight: lighter;
+     font-size:18px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .convert p:nth-child(odd){
+     font-weight: bolder;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: large;
+ }
+button {
+background-color: transparent;
+color: white;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+border: none;
+}
+button:hover{
+    cursor: pointer;
+border: 1px solid black;
+}
